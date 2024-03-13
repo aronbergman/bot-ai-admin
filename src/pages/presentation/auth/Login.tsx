@@ -135,8 +135,6 @@ const Login: FC<ILoginProps> = ({ isSignUp }) => {
 										)}
 										aria-label="Facit">
 										{/*<Logo width={200} />*/}
-										<p style={{ textTransform: 'uppercase' }}>Saluteguide</p>
-
 									</Link>
 								</div>
 								<div
