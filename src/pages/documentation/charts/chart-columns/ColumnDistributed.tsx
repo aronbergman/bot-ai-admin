@@ -10,12 +10,12 @@ import Chart, { IChartOptions } from '../../../../components/extras/Chart';
 
 const ColumnDistributed = () => {
 	const colors: string[] = [
-		String(import.meta.env.VITE_PRIMARY_COLOR),
-		String(import.meta.env.VITE_SECONDARY_COLOR),
-		String(import.meta.env.VITE_SUCCESS_COLOR),
-		String(import.meta.env.VITE_INFO_COLOR),
-		String(import.meta.env.VITE_WARNING_COLOR),
-		String(import.meta.env.VITE_DANGER_COLOR),
+		String(process.env.REACT_APP_PRIMARY_COLOR),
+		String(process.env.REACT_APP_SECONDARY_COLOR),
+		String(process.env.REACT_APP_SUCCESS_COLOR),
+		String(process.env.REACT_APP_INFO_COLOR),
+		String(process.env.REACT_APP_WARNING_COLOR),
+		String(process.env.REACT_APP_DANGER_COLOR),
 		'#26a69a',
 		'#D10CE8',
 	];

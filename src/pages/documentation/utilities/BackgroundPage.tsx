@@ -57,14 +57,14 @@ const BackgroundPage = () => {
 <div className='p-3 mb-2 bg-dark bg-gradient text-white'>.bg-dark.bg-gradient</div>`;
 
 	const VARIABLES = `
-$primary:       ${import.meta.env.VITE_PRIMARY_COLOR};
-$secondary:		${import.meta.env.VITE_SECONDARY_COLOR};
-$success:       ${import.meta.env.VITE_SUCCESS_COLOR};
-$info:          ${import.meta.env.VITE_INFO_COLOR};
-$warning:       ${import.meta.env.VITE_WARNING_COLOR};
-$danger:        ${import.meta.env.VITE_DANGER_COLOR};
-$light:         ${import.meta.env.VITE_LIGHT_COLOR};
-$dark:          ${import.meta.env.VITE_DARK_COLOR};`;
+$primary:       ${process.env.REACT_APP_PRIMARY_COLOR};
+$secondary:		${process.env.REACT_APP_SECONDARY_COLOR};
+$success:       ${process.env.REACT_APP_SUCCESS_COLOR};
+$info:          ${process.env.REACT_APP_INFO_COLOR};
+$warning:       ${process.env.REACT_APP_WARNING_COLOR};
+$danger:        ${process.env.REACT_APP_DANGER_COLOR};
+$light:         ${process.env.REACT_APP_LIGHT_COLOR};
+$dark:          ${process.env.REACT_APP_DARK_COLOR};`;
 	const VARIABLES_2 = `
 $gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0));`;
 	const VARIABLES_3 = `

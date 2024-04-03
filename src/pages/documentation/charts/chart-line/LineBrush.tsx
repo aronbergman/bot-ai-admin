@@ -30,7 +30,7 @@ const LineBrush = () => {
 					show: false,
 				},
 			},
-			colors: [import.meta.env.VITE_PRIMARY_COLOR],
+			colors: [process.env.REACT_APP_PRIMARY_COLOR],
 			stroke: {
 				width: 3,
 			},
@@ -70,7 +70,7 @@ const LineBrush = () => {
 					},
 				},
 			},
-			colors: [import.meta.env.VITE_INFO_COLOR],
+			colors: [process.env.REACT_APP_INFO_COLOR],
 			fill: {
 				type: 'gradient',
 				gradient: {

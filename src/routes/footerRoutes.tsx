@@ -9,7 +9,7 @@ const footers: RouteProps[] = [
 	{ path: demoPagesMenu.signUp.path, element: null },
 	{ path: demoPagesMenu.page404.path, element: null },
 	{ path: demoPagesMenu.knowledge.subMenu.grid.path, element: null },
-	// { path: '*', element: <DefaultFooter /> },
+	{ path: '*', element: <DefaultFooter /> },
 ];
 
 export default footers;

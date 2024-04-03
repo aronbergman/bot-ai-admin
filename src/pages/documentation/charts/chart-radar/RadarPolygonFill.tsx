@@ -38,12 +38,12 @@ const RadarPolygonFill = () => {
 			title: {
 				text: 'Radar with Polygon Fill',
 			},
-			colors: [import.meta.env.VITE_DANGER_COLOR],
+			colors: [process.env.REACT_APP_DANGER_COLOR],
 			markers: {
 				size: 4,
 				colors: ['#fff'],
 				// @ts-ignore
-				strokeColor: import.meta.env.VITE_DANGER_COLOR,
+				strokeColor: process.env.REACT_APP_DANGER_COLOR,
 				strokeWidth: 2,
 			},
 			tooltip: {

@@ -9,35 +9,35 @@ export interface IColors {
 const COLORS: IColors = {
 	PRIMARY: {
 		name: 'primary',
-		code: String(import.meta.env.VITE_PRIMARY_COLOR),
+		code: String(process.env.REACT_APP_PRIMARY_COLOR),
 	},
 	SECONDARY: {
 		name: 'secondary',
-		code: String(import.meta.env.VITE_SECONDARY_COLOR),
+		code: String(process.env.REACT_APP_SECONDARY_COLOR),
 	},
 	SUCCESS: {
 		name: 'success',
-		code: String(import.meta.env.VITE_SUCCESS_COLOR),
+		code: String(process.env.REACT_APP_SUCCESS_COLOR),
 	},
 	INFO: {
 		name: 'info',
-		code: String(import.meta.env.VITE_INFO_COLOR),
+		code: String(process.env.REACT_APP_INFO_COLOR),
 	},
 	WARNING: {
 		name: 'warning',
-		code: String(import.meta.env.VITE_WARNING_COLOR),
+		code: String(process.env.REACT_APP_WARNING_COLOR),
 	},
 	DANGER: {
 		name: 'danger',
-		code: String(import.meta.env.VITE_DANGER_COLOR),
+		code: String(process.env.REACT_APP_DANGER_COLOR),
 	},
 	DARK: {
 		name: 'dark',
-		code: String(import.meta.env.VITE_DARK_COLOR),
+		code: String(process.env.REACT_APP_DARK_COLOR),
 	},
 	LIGHT: {
 		name: 'light',
-		code: String(import.meta.env.VITE_LIGHT_COLOR),
+		code: String(process.env.REACT_APP_LIGHT_COLOR),
 	},
 };
 

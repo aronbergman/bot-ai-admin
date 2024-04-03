@@ -15,7 +15,7 @@ const SummaryHeader = () => {
 					menu={summaryPageTopMenu}
 					id='summary-page-top-menu'
 					horizontal={
-						!!width && width >= Number(import.meta.env.VITE_MOBILE_BREAKPOINT_SIZE)
+						!!width && width >= Number(process.env.REACT_APP_MOBILE_BREAKPOINT_SIZE)
 					}
 				/>
 			</HeaderLeft>

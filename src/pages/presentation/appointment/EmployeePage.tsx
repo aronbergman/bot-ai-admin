@@ -51,7 +51,7 @@ const EmployeePage = () => {
 			},
 		],
 		options: {
-			colors: [import.meta.env.VITE_SUCCESS_COLOR],
+			colors: [process.env.REACT_APP_SUCCESS_COLOR],
 			chart: {
 				type: 'radar',
 				width: 200,

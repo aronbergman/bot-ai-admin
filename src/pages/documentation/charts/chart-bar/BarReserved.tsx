@@ -27,12 +27,12 @@ const BarReserved = () => {
 				xaxis: [
 					{
 						x: 500,
-						borderColor: import.meta.env.VITE_SUCCESS_COLOR,
+						borderColor: process.env.REACT_APP_SUCCESS_COLOR,
 						label: {
-							borderColor: import.meta.env.VITE_SUCCESS_COLOR,
+							borderColor: process.env.REACT_APP_SUCCESS_COLOR,
 							style: {
 								color: '#fff',
-								background: import.meta.env.VITE_SUCCESS_COLOR,
+								background: process.env.REACT_APP_SUCCESS_COLOR,
 							},
 							text: 'X annotation',
 						},

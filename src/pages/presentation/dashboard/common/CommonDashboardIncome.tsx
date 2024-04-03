@@ -35,7 +35,7 @@ const CommonDashboardIncome: FC<ICommonDashboardIncomeProps> = ({ activeTab }) =
 			},
 		],
 		options: {
-			colors: [import.meta.env.VITE_WARNING_COLOR],
+			colors: [process.env.REACT_APP_WARNING_COLOR],
 			chart: {
 				type: 'line',
 				width: '100%',

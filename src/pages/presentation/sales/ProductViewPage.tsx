@@ -94,7 +94,7 @@ const ProductViewPage = () => {
 	const data = itemData[0];
 
 	const chartOptions: ApexOptions = {
-		colors: [import.meta.env.VITE_WARNING_COLOR],
+		colors: [process.env.REACT_APP_WARNING_COLOR],
 		chart: {
 			type: 'line',
 			width: '100%',

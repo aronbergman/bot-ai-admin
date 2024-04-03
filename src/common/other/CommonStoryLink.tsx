@@ -8,7 +8,7 @@ interface ICommonStoryLinkProps extends HTMLAttributes<HTMLAnchorElement> {
 const CommonStoryLink: FC<ICommonStoryLinkProps> = ({ to, children, ...props }) => {
 	return (
 		<a
-			href={`${import.meta.env.VITE_STORYBOOK_URL}${to}`}
+			href={`${process.env.REACT_APP_STORYBOOK_URL}${to}`}
 			target='_blank'
 			rel='noreferrer'
 			// eslint-disable-next-line react/jsx-props-no-spreading

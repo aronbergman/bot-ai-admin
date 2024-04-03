@@ -40,7 +40,7 @@ const PolarMonochrome = () => {
 			theme: {
 				monochrome: {
 					enabled: true,
-					color: import.meta.env.VITE_PRIMARY_COLOR,
+					color: process.env.REACT_APP_PRIMARY_COLOR,
 					shadeTo: 'light',
 					shadeIntensity: 0.6,
 				},

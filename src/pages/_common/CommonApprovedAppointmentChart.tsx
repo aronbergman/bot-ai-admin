@@ -25,13 +25,13 @@ const CommonApprovedAppointmentChart = () => {
 			},
 		],
 		options: {
-			colors: [import.meta.env.VITE_SUCCESS_COLOR],
+			colors: [process.env.REACT_APP_SUCCESS_COLOR],
 			chart: {
 				type: 'bar',
 				height: 200,
 				dropShadow: {
 					enabled: false,
-					color: import.meta.env.VITE_SUCCESS_COLOR,
+					color: process.env.REACT_APP_SUCCESS_COLOR,
 					top: 0,
 					left: 0,
 					blur: 10,

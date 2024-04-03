@@ -25,13 +25,13 @@ const CommonPercentageOfLoadChart = () => {
 			},
 		],
 		options: {
-			colors: [import.meta.env.VITE_PRIMARY_COLOR],
+			colors: [process.env.REACT_APP_PRIMARY_COLOR],
 			chart: {
 				type: 'line',
 				height: 200,
 				dropShadow: {
 					enabled: false,
-					color: import.meta.env.VITE_PRIMARY_COLOR,
+					color: process.env.REACT_APP_PRIMARY_COLOR,
 					top: 0,
 					left: 0,
 					blur: 10,

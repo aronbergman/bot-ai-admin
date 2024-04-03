@@ -22,12 +22,12 @@ const PageWrapper = forwardRef<HTMLDivElement, IPageWrapperProps>(
 		useLayoutEffect(() => {
 			// @ts-ignore
 			document.getElementsByTagName('TITLE')[0].text = `${title ? `${title} | ` : ''}${
-				import.meta.env.VITE_SITE_NAME
+				process.env.REACT_APP_SITE_NAME
 			}`;
 			// @ts-ignore
 			document
 				?.querySelector('meta[name="description"]')
-				.setAttribute('content', description || import.meta.env.VITE_META_DESC || '');
+				.setAttribute('content', description || process.env.REACT_APP_META_DESC || '');
 		});
 
 		const { user } = useContext(AuthContext);

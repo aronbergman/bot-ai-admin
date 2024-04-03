@@ -271,13 +271,13 @@ const CandlestickCategoryXAxis = () => {
 				xaxis: [
 					{
 						x: 'Oct 06 14:00',
-						borderColor: import.meta.env.VITE_SUCCESS_COLOR,
+						borderColor: process.env.REACT_APP_SUCCESS_COLOR,
 						label: {
-							borderColor: import.meta.env.VITE_SUCCESS_COLOR,
+							borderColor: process.env.REACT_APP_SUCCESS_COLOR,
 							style: {
 								fontSize: '12px',
 								color: '#fff',
-								background: import.meta.env.VITE_SUCCESS_COLOR,
+								background: process.env.REACT_APP_SUCCESS_COLOR,
 							},
 							orientation: 'horizontal',
 							offsetY: 7,

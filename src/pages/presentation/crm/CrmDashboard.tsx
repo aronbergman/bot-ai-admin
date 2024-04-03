@@ -52,9 +52,9 @@ const CrmDashboard = () => {
 			ranges={[state.selection, state.selection2, state.selection3]}
 			direction='horizontal'
 			rangeColors={[
-				String(import.meta.env.VITE_PRIMARY_COLOR),
-				String(import.meta.env.VITE_SECONDARY_COLOR),
-				String(import.meta.env.VITE_SUCCESS_COLOR),
+				String(process.env.REACT_APP_PRIMARY_COLOR),
+				String(process.env.REACT_APP_SECONDARY_COLOR),
+				String(process.env.REACT_APP_SUCCESS_COLOR),
 			]}
 		/>
 	);

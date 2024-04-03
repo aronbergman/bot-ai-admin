@@ -68,12 +68,12 @@ const AnswerCustomer: FC<IAnswerCustomerProps> = (props: IAnswerCustomerProps) =
 				lineCap: 'round',
 			},
 			colors: [
-				(color === 'primary' && import.meta.env.VITE_PRIMARY_COLOR) ||
-					(color === 'secondary' && import.meta.env.VITE_SECONDARY_COLOR) ||
-					(color === 'success' && import.meta.env.VITE_SUCCESS_COLOR) ||
-					(color === 'info' && import.meta.env.VITE_INFO_COLOR) ||
-					(color === 'warning' && import.meta.env.VITE_WARNING_COLOR) ||
-					(color === 'danger' && import.meta.env.VITE_DANGER_COLOR),
+				(color === 'primary' && process.env.REACT_APP_PRIMARY_COLOR) ||
+					(color === 'secondary' && process.env.REACT_APP_SECONDARY_COLOR) ||
+					(color === 'success' && process.env.REACT_APP_SUCCESS_COLOR) ||
+					(color === 'info' && process.env.REACT_APP_INFO_COLOR) ||
+					(color === 'warning' && process.env.REACT_APP_WARNING_COLOR) ||
+					(color === 'danger' && process.env.REACT_APP_DANGER_COLOR),
 			],
 		},
 	});
@@ -215,15 +215,6 @@ const CommonDashboardWaitingAnswer = () => {
 						name={`${USERS.CHLOE.name} ${USERS.CHLOE.surname}`}
 						color={USERS.CHLOE.color}
 						job='Kentucky'
-						value={12}
-					/>
-					<AnswerCustomer
-						id={USERS.SAM.id}
-						img={USERS.SAM.src}
-						imgWebp={USERS.SAM.srcSet}
-						name={`${USERS.SAM.name} ${USERS.SAM.surname}`}
-						color={USERS.SAM.color}
-						job='Michigan'
 						value={12}
 					/>
 				</div>

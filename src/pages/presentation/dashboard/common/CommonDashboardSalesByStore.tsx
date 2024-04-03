@@ -67,9 +67,9 @@ const CommonDashboardSalesByStore = () => {
 			toolbar: { show: false },
 		},
 		colors: [
-			import.meta.env.VITE_INFO_COLOR,
-			import.meta.env.VITE_SUCCESS_COLOR,
-			import.meta.env.VITE_WARNING_COLOR,
+			process.env.REACT_APP_INFO_COLOR,
+			process.env.REACT_APP_SUCCESS_COLOR,
+			process.env.REACT_APP_WARNING_COLOR,
 		],
 		dataLabels: {
 			enabled: false,
@@ -107,17 +107,17 @@ const CommonDashboardSalesByStore = () => {
 				},
 				axisBorder: {
 					show: true,
-					color: import.meta.env.VITE_INFO_COLOR,
+					color: process.env.REACT_APP_INFO_COLOR,
 				},
 				labels: {
 					style: {
-						colors: import.meta.env.VITE_INFO_COLOR,
+						colors: process.env.REACT_APP_INFO_COLOR,
 					},
 				},
 				title: {
 					text: 'Income (thousand cores)',
 					style: {
-						color: import.meta.env.VITE_INFO_COLOR,
+						color: process.env.REACT_APP_INFO_COLOR,
 					},
 				},
 				tooltip: {
@@ -132,17 +132,17 @@ const CommonDashboardSalesByStore = () => {
 				},
 				axisBorder: {
 					show: true,
-					color: import.meta.env.VITE_SUCCESS_COLOR,
+					color: process.env.REACT_APP_SUCCESS_COLOR,
 				},
 				labels: {
 					style: {
-						colors: import.meta.env.VITE_SUCCESS_COLOR,
+						colors: process.env.REACT_APP_SUCCESS_COLOR,
 					},
 				},
 				title: {
 					text: 'Operating Cash Flow (thousand cores)',
 					style: {
-						color: import.meta.env.VITE_SUCCESS_COLOR,
+						color: process.env.REACT_APP_SUCCESS_COLOR,
 					},
 				},
 			},
@@ -154,17 +154,17 @@ const CommonDashboardSalesByStore = () => {
 				},
 				axisBorder: {
 					show: true,
-					color: import.meta.env.VITE_WARNING_COLOR,
+					color: process.env.REACT_APP_WARNING_COLOR,
 				},
 				labels: {
 					style: {
-						colors: import.meta.env.VITE_WARNING_COLOR,
+						colors: process.env.REACT_APP_WARNING_COLOR,
 					},
 				},
 				title: {
 					text: 'Revenue (thousand cores)',
 					style: {
-						color: import.meta.env.VITE_WARNING_COLOR,
+						color: process.env.REACT_APP_WARNING_COLOR,
 					},
 				},
 			},

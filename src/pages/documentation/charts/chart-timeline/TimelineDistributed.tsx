@@ -17,27 +17,27 @@ const TimelineDistributed = () => {
 					{
 						x: 'Analysis',
 						y: [new Date('2019-02-27').getTime(), new Date('2019-03-04').getTime()],
-						fillColor: import.meta.env.VITE_INFO_COLOR,
+						fillColor: process.env.REACT_APP_INFO_COLOR,
 					},
 					{
 						x: 'Design',
 						y: [new Date('2019-03-04').getTime(), new Date('2019-03-08').getTime()],
-						fillColor: import.meta.env.VITE_SUCCESS_COLOR,
+						fillColor: process.env.REACT_APP_SUCCESS_COLOR,
 					},
 					{
 						x: 'Coding',
 						y: [new Date('2019-03-07').getTime(), new Date('2019-03-10').getTime()],
-						fillColor: import.meta.env.VITE_PRIMARY_COLOR,
+						fillColor: process.env.REACT_APP_PRIMARY_COLOR,
 					},
 					{
 						x: 'Testing',
 						y: [new Date('2019-03-08').getTime(), new Date('2019-03-12').getTime()],
-						fillColor: import.meta.env.VITE_WARNING_COLOR,
+						fillColor: process.env.REACT_APP_WARNING_COLOR,
 					},
 					{
 						x: 'Deployment',
 						y: [new Date('2019-03-12').getTime(), new Date('2019-03-17').getTime()],
-						fillColor: import.meta.env.VITE_DANGER_COLOR,
+						fillColor: process.env.REACT_APP_DANGER_COLOR,
 					},
 				],
 			},

@@ -1,6 +1,7 @@
 # Facit | React Admin Dashboard Template V4.3.4
 
 #### Required files (Checked ones should definitely be in your project)
+- [ ] .storybook
 - [x] public[^1]
 - [x] src[^1]
 - [ ] SvgIcons
@@ -11,7 +12,6 @@
 - [ ] .eslintrc[^2]
 - [ ] .gitattributes
 - [ ] .gitignore
-- [ ] .prettierignore[^3]
 - [ ] .prettierrc[^3]
 - [ ] .stylelintignore[^4]
 - [ ] .stylelintrc[^4]
@@ -21,9 +21,6 @@
 - [ ] package-lock.json[^5]
 - [ ] README.md
 - [ ] yarn.lock[^6]
-- [x] tsconfig.json
-- [x] tsconfig.node.json
-- [x] vite.config.ts
 - [x] node_modules[^1]
 
 [^1]: These files or folders are absolutely necessary for the project to work properly.
@@ -40,9 +37,12 @@ To continue changing what you see in the demo
 
 ```cd facit```
 
+To start with a lite copy
+
+```cd facit-lite```
 
 ### npm
-```npm install --legacy-peer-deps```
+```npm install```
 
 or 
 
@@ -51,10 +51,10 @@ or
 
 Inside the newly created project, you can run some built-in commands:
 
-### `npm run dev` or `yarn dev`
+### `npm start` or `yarn start`
 
 Runs the app in development mode.<br>
-Open [http://127.0.0.1:5173](http://127.0.0.1:5173) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
 ### Detailed information on how to use it is given at [facit.omtanke.studio](https://facit.omtanke.studio/) or [facit-story.omtanke.studio](https://facit-story.omtanke.studio/). If you have questions, you can get support from us 24/7.

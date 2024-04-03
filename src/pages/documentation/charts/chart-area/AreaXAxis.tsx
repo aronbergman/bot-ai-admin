@@ -313,7 +313,7 @@ const AreaXAxis = () => {
 							text: 'Support',
 							style: {
 								color: '#fff',
-								background: import.meta.env.VITE_SUCCESS_COLOR,
+								background: process.env.REACT_APP_SUCCESS_COLOR,
 								// @ts-ignore
 								strokeWidth: 0,
 							},

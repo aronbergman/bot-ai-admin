@@ -72,7 +72,7 @@ const LineGradient = () => {
 				type: 'gradient',
 				gradient: {
 					shade: 'dark',
-					gradientToColors: [String(import.meta.env.VITE_SECONDARY_COLOR)],
+					gradientToColors: [String(process.env.REACT_APP_SECONDARY_COLOR)],
 					shadeIntensity: 1,
 					type: 'horizontal',
 					opacityFrom: 1,

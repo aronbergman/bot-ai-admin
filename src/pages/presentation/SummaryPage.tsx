@@ -592,7 +592,7 @@ const SummaryPage = () => {
 													size='lg'
 													tag='a'
 													target='_blank'
-													href={`${import.meta.env.VITE_STORYBOOK_URL}`}>
+													href={`${process.env.REACT_APP_STORYBOOK_URL}`}>
 													Storybook
 												</Button>
 											</div>
@@ -626,7 +626,7 @@ const SummaryPage = () => {
 											size='lg'
 											tag='a'
 											target='_blank'
-											href={`${import.meta.env.VITE_STORYBOOK_URL}`}>
+											href={`${process.env.REACT_APP_STORYBOOK_URL}`}>
 											Storybook
 										</Button>
 									</div>

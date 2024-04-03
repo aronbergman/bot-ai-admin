@@ -87,7 +87,7 @@ const LineSyncingOptions = () => {
 				type: 'line',
 				height: 160,
 			},
-			colors: [import.meta.env.VITE_WARNING_COLOR],
+			colors: [process.env.REACT_APP_WARNING_COLOR],
 			yaxis: {
 				labels: {
 					minWidth: 40,
@@ -111,7 +111,7 @@ const LineSyncingOptions = () => {
 				type: 'area',
 				height: 160,
 			},
-			colors: [import.meta.env.VITE_SUCCESS_COLOR],
+			colors: [process.env.REACT_APP_SUCCESS_COLOR],
 			yaxis: {
 				labels: {
 					minWidth: 40,

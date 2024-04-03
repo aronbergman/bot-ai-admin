@@ -4536,7 +4536,7 @@ export const sales: IChartOptions = {
 		},
 	],
 	options: {
-		colors: [import.meta.env.VITE_INFO_COLOR],
+		colors: [process.env.REACT_APP_INFO_COLOR],
 		chart: {
 			type: 'line',
 			width: '100%',

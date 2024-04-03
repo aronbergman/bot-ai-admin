@@ -715,7 +715,7 @@ const EditBoxedPage = () => {
 												<DatePicker
 													onChange={(item) => setDate(item)}
 													date={date}
-													color={import.meta.env.VITE_PRIMARY_COLOR}
+													color={process.env.REACT_APP_PRIMARY_COLOR}
 												/>
 											}
 											placement='bottom-start'

@@ -26,13 +26,13 @@ const ColumnDynamicData = () => {
 	};
 
 	const colors = [
-		import.meta.env.VITE_INFO_COLOR,
-		import.meta.env.VITE_SUCCESS_COLOR,
-		import.meta.env.VITE_WARNING_COLOR,
+		process.env.REACT_APP_INFO_COLOR,
+		process.env.REACT_APP_SUCCESS_COLOR,
+		process.env.REACT_APP_WARNING_COLOR,
 		'#FF4560',
-		import.meta.env.VITE_PRIMARY_COLOR,
-		import.meta.env.VITE_SECONDARY_COLOR,
-		import.meta.env.VITE_DANGER_COLOR,
+		process.env.REACT_APP_PRIMARY_COLOR,
+		process.env.REACT_APP_SECONDARY_COLOR,
+		process.env.REACT_APP_DANGER_COLOR,
 	];
 
 	/**

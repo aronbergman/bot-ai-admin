@@ -111,7 +111,7 @@ const CommonTransActions = () => {
 				},
 				text: 'All Earning',
 			},
-			colors: [import.meta.env.VITE_INFO_COLOR],
+			colors: [process.env.REACT_APP_INFO_COLOR],
 		},
 	});
 	const [stackedColumn] = useState<IChartOptions>({
@@ -191,7 +191,7 @@ const CommonTransActions = () => {
 			tooltip: {
 				theme: 'dark',
 			},
-			colors: [import.meta.env.VITE_DANGER_COLOR],
+			colors: [process.env.REACT_APP_DANGER_COLOR],
 		},
 	});
 

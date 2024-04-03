@@ -7,7 +7,6 @@
 	@if $enable-blur {
 		-webkit-backdrop-filter: blur($value);
 		backdrop-filter: blur($value);
-		-webkit-backdrop-filter: blur($value);
 		will-change: backdrop-filter;
 	} @else {
 		backdrop-filter: none;

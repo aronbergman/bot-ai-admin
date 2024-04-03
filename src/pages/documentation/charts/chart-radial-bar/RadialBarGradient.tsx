@@ -77,7 +77,7 @@ const RadialBarGradient = () => {
 					shade: 'dark',
 					type: 'horizontal',
 					shadeIntensity: 0.5,
-					gradientToColors: [String(import.meta.env.VITE_SECONDARY_COLOR)],
+					gradientToColors: [String(process.env.REACT_APP_SECONDARY_COLOR)],
 					inverseColors: true,
 					opacityFrom: 1,
 					opacityTo: 1,

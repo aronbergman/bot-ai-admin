@@ -13,7 +13,7 @@ const CommonStoryBtn: FC<ICommonStoryBtnProps> = ({ to, ...props }) => {
 			tag='a'
 			target='_blank'
 			isLight
-			href={`${import.meta.env.VITE_STORYBOOK_URL}${to}`}
+			href={`${process.env.REACT_APP_STORYBOOK_URL}${to}`}
 			// eslint-disable-next-line react/jsx-props-no-spreading
 			{...props}>
 			Storybook

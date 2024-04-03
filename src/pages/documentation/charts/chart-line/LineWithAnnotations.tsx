@@ -22,12 +22,12 @@ const LineWithAnnotations = () => {
 				yaxis: [
 					{
 						y: 8200,
-						borderColor: import.meta.env.VITE_SUCCESS_COLOR,
+						borderColor: process.env.REACT_APP_SUCCESS_COLOR,
 						label: {
-							borderColor: import.meta.env.VITE_SUCCESS_COLOR,
+							borderColor: process.env.REACT_APP_SUCCESS_COLOR,
 							style: {
 								color: '#fff',
-								background: import.meta.env.VITE_SUCCESS_COLOR,
+								background: process.env.REACT_APP_SUCCESS_COLOR,
 							},
 							text: 'Support',
 						},
@@ -36,14 +36,14 @@ const LineWithAnnotations = () => {
 						y: 8600,
 						y2: 9000,
 						borderColor: '#000',
-						fillColor: import.meta.env.VITE_WARNING_COLOR,
+						fillColor: process.env.REACT_APP_WARNING_COLOR,
 						opacity: 0.2,
 						label: {
-							borderColor: import.meta.env.VITE_WARNING_COLOR,
+							borderColor: process.env.REACT_APP_WARNING_COLOR,
 							style: {
 								fontSize: '10px',
 								color: '#333',
-								background: import.meta.env.VITE_WARNING_COLOR,
+								background: process.env.REACT_APP_WARNING_COLOR,
 							},
 							text: 'Y-axis range',
 						},
@@ -53,12 +53,12 @@ const LineWithAnnotations = () => {
 					{
 						x: new Date('23 Nov 2017').getTime(),
 						strokeDashArray: 0,
-						borderColor: import.meta.env.VITE_PRIMARY_COLOR,
+						borderColor: process.env.REACT_APP_PRIMARY_COLOR,
 						label: {
-							borderColor: import.meta.env.VITE_PRIMARY_COLOR,
+							borderColor: process.env.REACT_APP_PRIMARY_COLOR,
 							style: {
 								color: '#fff',
-								background: import.meta.env.VITE_PRIMARY_COLOR,
+								background: process.env.REACT_APP_PRIMARY_COLOR,
 							},
 							text: 'Anno Test',
 						},
@@ -66,14 +66,14 @@ const LineWithAnnotations = () => {
 					{
 						x: new Date('26 Nov 2017').getTime(),
 						x2: new Date('28 Nov 2017').getTime(),
-						fillColor: import.meta.env.VITE_SUCCESS_COLOR,
+						fillColor: process.env.REACT_APP_SUCCESS_COLOR,
 						opacity: 0.4,
 						label: {
-							borderColor: import.meta.env.VITE_SUCCESS_COLOR,
+							borderColor: process.env.REACT_APP_SUCCESS_COLOR,
 							style: {
 								fontSize: '10px',
 								color: '#fff',
-								background: import.meta.env.VITE_SUCCESS_COLOR,
+								background: process.env.REACT_APP_SUCCESS_COLOR,
 							},
 							offsetY: -10,
 							text: 'X-axis range',
@@ -92,11 +92,11 @@ const LineWithAnnotations = () => {
 							cssClass: 'apexcharts-custom-class',
 						},
 						label: {
-							borderColor: import.meta.env.VITE_DANGER_COLOR,
+							borderColor: process.env.REACT_APP_DANGER_COLOR,
 							offsetY: 0,
 							style: {
 								color: '#fff',
-								background: import.meta.env.VITE_DANGER_COLOR,
+								background: process.env.REACT_APP_DANGER_COLOR,
 							},
 							text: 'Point Annotation',
 						},

@@ -32,12 +32,12 @@ const ColumnWithNegativeValues = () => {
 							{
 								from: -100,
 								to: -46,
-								color: import.meta.env.VITE_DANGER_COLOR,
+								color: process.env.REACT_APP_DANGER_COLOR,
 							},
 							{
 								from: -45,
 								to: 0,
-								color: import.meta.env.VITE_WARNING_COLOR,
+								color: process.env.REACT_APP_WARNING_COLOR,
 							},
 						],
 					},

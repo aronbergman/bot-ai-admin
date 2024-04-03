@@ -125,7 +125,7 @@ const Login: FC<ILoginProps> = ({ isSignUp }) => {
 							<CardBody>
 								<div className='text-center my-5'>
 									<Link
-										to="/"
+										to='/'
 										className={classNames(
 											'text-decoration-none  fw-bold display-2',
 											{
@@ -133,8 +133,8 @@ const Login: FC<ILoginProps> = ({ isSignUp }) => {
 												'text-light': darkModeStatus,
 											},
 										)}
-										aria-label="Facit">
-										{/*<Logo width={200} />*/}
+										aria-label='Facit'>
+										<Logo width={200} />
 									</Link>
 								</div>
 								<div

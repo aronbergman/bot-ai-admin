@@ -23,11 +23,11 @@ const ColumnWithRotatedLabel = () => {
 						x: 'Bananas',
 						seriesIndex: 0,
 						label: {
-							borderColor: import.meta.env.VITE_WARNING_COLOR,
+							borderColor: process.env.REACT_APP_WARNING_COLOR,
 							offsetY: 0,
 							style: {
 								color: '#323232',
-								background: import.meta.env.VITE_WARNING_COLOR,
+								background: process.env.REACT_APP_WARNING_COLOR,
 							},
 							text: 'Bananas are good',
 						},

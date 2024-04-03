@@ -22,7 +22,7 @@ const CommonSalePerformance = () => {
 				show: false,
 			},
 		},
-		colors: [import.meta.env.VITE_SUCCESS_COLOR, import.meta.env.VITE_INFO_COLOR],
+		colors: [process.env.REACT_APP_SUCCESS_COLOR, process.env.REACT_APP_INFO_COLOR],
 		dataLabels: {
 			enabled: false,
 		},

@@ -63,7 +63,7 @@ const App = () => {
 	 * Modern Design
 	 */
 	useLayoutEffect(() => {
-		if (import.meta.env.VITE_MODERN_DESGIN === 'true') {
+		if (process.env.REACT_APP_MODERN_DESGIN === 'true') {
 			document.body.classList.add('modern-design');
 		} else {
 			document.body.classList.remove('modern-design');

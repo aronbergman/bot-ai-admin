@@ -32,7 +32,7 @@ const BarWithNegativeValues = () => {
 				height: 440,
 				stacked: true,
 			},
-			colors: [import.meta.env.VITE_DANGER_COLOR, import.meta.env.VITE_INFO_COLOR],
+			colors: [process.env.REACT_APP_DANGER_COLOR, process.env.REACT_APP_INFO_COLOR],
 			plotOptions: {
 				bar: {
 					horizontal: true,

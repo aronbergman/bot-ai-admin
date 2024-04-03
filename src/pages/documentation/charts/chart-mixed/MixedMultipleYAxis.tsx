@@ -54,17 +54,17 @@ const MixedMultipleYAxis = () => {
 					},
 					axisBorder: {
 						show: true,
-						color: import.meta.env.VITE_INFO_COLOR,
+						color: process.env.REACT_APP_INFO_COLOR,
 					},
 					labels: {
 						style: {
-							colors: import.meta.env.VITE_INFO_COLOR,
+							colors: process.env.REACT_APP_INFO_COLOR,
 						},
 					},
 					title: {
 						text: 'Income (thousand cores)',
 						style: {
-							color: import.meta.env.VITE_INFO_COLOR,
+							color: process.env.REACT_APP_INFO_COLOR,
 						},
 					},
 					tooltip: {
@@ -79,17 +79,17 @@ const MixedMultipleYAxis = () => {
 					},
 					axisBorder: {
 						show: true,
-						color: import.meta.env.VITE_SUCCESS_COLOR,
+						color: process.env.REACT_APP_SUCCESS_COLOR,
 					},
 					labels: {
 						style: {
-							colors: import.meta.env.VITE_SUCCESS_COLOR,
+							colors: process.env.REACT_APP_SUCCESS_COLOR,
 						},
 					},
 					title: {
 						text: 'Operating Cashflow (thousand cores)',
 						style: {
-							color: import.meta.env.VITE_SUCCESS_COLOR,
+							color: process.env.REACT_APP_SUCCESS_COLOR,
 						},
 					},
 				},
@@ -101,17 +101,17 @@ const MixedMultipleYAxis = () => {
 					},
 					axisBorder: {
 						show: true,
-						color: import.meta.env.VITE_WARNING_COLOR,
+						color: process.env.REACT_APP_WARNING_COLOR,
 					},
 					labels: {
 						style: {
-							colors: import.meta.env.VITE_WARNING_COLOR,
+							colors: process.env.REACT_APP_WARNING_COLOR,
 						},
 					},
 					title: {
 						text: 'Revenue (thousand cores)',
 						style: {
-							color: import.meta.env.VITE_WARNING_COLOR,
+							color: process.env.REACT_APP_WARNING_COLOR,
 						},
 					},
 				},
